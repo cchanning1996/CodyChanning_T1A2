@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+    <header>
+        <nav class="navbar">
+            <div class="brand-title">Cody Channing</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+        <div class="navbar-links">
+          <ul>
+            <li><a href="../index.html">Home</a></li> 
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+        
+    </header>
+
+    <div class="contact-section">
+      <h1>Get In Contact!</h1>
+      <div class="border"></div>
+      <form class="contact-form" action="mailto:someone@yoursite.com?subject=Mail from Our Site" method="post">
+       <input type="text" class="contact-form-text" placeholder="Your Name">
+       <input type="Email" class="contact-form-text" placeholder="Your Email">
+       <input type="text" class="contact-form-text" placeholder="Your Phone">
+       <textarea  class="contact-form-text" placeholder="Your Message"></textarea>
+       <input type="submit" class="contact-form-btn" value="Submit">
+      </form>
+    </div>
+
+    <footer>
+        <ul class="footer-socials">
+            <li><a href="https://www.linkedin.com" add target="_blank" class="fa fa-linkedin"></a></li>
+            <li><a href="https://github.com/cchanning1996" add target="_blank" class="fa fa-github"></a></li>
+            <li><a href="https://twitter.com" add target="_blank" class="fa fa-twitter"></a></li>
+        </ul>
+    </footer>
     
 </body>
 </html>
