@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
 }
 
 article > * {
@@ -177,7 +179,7 @@ footer .footer-socials li:hover a {
     }
 }
 
-  @media only screen and (min-width: 750px) and (max-width: 1199px) {
+  @media only screen and (min-width: 600px) and (max-width: 1199px) {
     body {
     overflow-x: hidden;
     position: relative;
@@ -194,7 +196,65 @@ footer .footer-socials li:hover a {
     cursor: pointer;
   }
 
-  
+  .blog_img {
+    width: 50%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    }
+
+.contact-section h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+        }
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    }
+        
+.contact-form-text {
+    text-align: left;
+    display:block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background: white;
+    padding: 20px 10px;
+    outline: none;
+    color: black;
+    transition: 0.5s;
+            }
+        
+.contact-form-text:focus {
+    box-shadow: 0 0 2px 2px rgb(170, 86, 153);
+            }
+        
+.textarea.contact-form-text {
+    resize: none;
+    height: 110px;
+            }
+
+.contact-form-btn {
+  float: center;
+  border: 0;
+  background: rgb(110, 52, 98);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+    }
+
+.contact-form-btn:hover {
+  background: rgb(141, 20, 211);
+  transition: 0.5s;
+    }
+
   .post-img {
     width: 85%;
     margin: 0 auto;
@@ -204,7 +264,8 @@ footer .footer-socials li:hover a {
 
   .post-content {
     background-color: rgba(174, 179, 177, 0.8);
-    margin: 0 20px;
+    text-align: center;
+    margin: 20px;
     padding: 30px;
     border-radius: 6px;
     transform: translateY(-60px);
@@ -222,7 +283,7 @@ footer .footer-socials li:hover a {
   }
 
   .post-img:hover {
-    transform: translateY(-15px);
+    transform: translateY(-5px);
     transition: 0.3s;
     }
   }
@@ -238,31 +299,31 @@ footer .footer-socials li:hover a {
     font-size: 15px;
     color: black;
   }
-  .blog_img {
-    width: 50%;
-
-    } 
 
   .blog_text {
-    width: 750px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 6px;
-    transform: translateY(-60px);
-    transition: 0.3s linear;
+    width: 50%;
+    position: relative;
+    margin: auto;
   }
 
   .post-img {
-    width: 85%;
-    margin: 0 auto;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 6px; 
     transition: 0.3s linear;
   }
 
   .post-content {
+    width: 25%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 37%;
     background-color: rgba(174, 179, 177, 0.8);
-    margin: 0 20px;
-    padding: 30px;
+    margin: 0px;
+    padding: 20px;
     border-radius: 6px;
     transform: translateY(-60px);
     transition: 0.3s linear;
@@ -279,7 +340,7 @@ footer .footer-socials li:hover a {
     }
 
   .post-img:hover {
-    transform: translateY(-15px);
+    transform: translateY(-5px);
     transition: 0.3s;
     }
 
@@ -290,6 +351,7 @@ footer .footer-socials li:hover a {
 
 .contact-section h1 {
   text-align: center;
+
     }
 
 .border {
