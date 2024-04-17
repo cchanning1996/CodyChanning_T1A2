@@ -32,6 +32,10 @@ body {
     margin: 5%;
   }
 
+  .blog_list ul {
+    list-style-type: none;
+  }
+
 .navbar {
     display: flex;
     position: relative;
