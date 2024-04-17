@@ -3,6 +3,16 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+article > * {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  flex-wrap: wrap;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -219,7 +229,30 @@ footer .footer-socials li:hover a {
 
 
   @media only screen and (min-width: 1199px) {
-    .post-img {
+  .blog_heading {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .blog_date {
+    font-size: 15px;
+    color: black;
+  }
+  .blog_img {
+    width: 50%;
+
+    } 
+
+  .blog_text {
+    width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: 0.3s linear;
+  }
+
+  .post-img {
     width: 85%;
     margin: 0 auto;
     border-radius: 6px; 
@@ -236,7 +269,7 @@ footer .footer-socials li:hover a {
   }
 
   .post-content h3 {
-    font-size: 1px;
+    font-size: 1rem;
     margin-bottom: 10px;
   }
 
