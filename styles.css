@@ -22,7 +22,15 @@ body {
     display: flex; 
     flex-direction: column;
     background-color: rgb(130, 130, 130);
-}
+  }
+
+.blog_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+  }
 
 .navbar {
     display: flex;
@@ -126,7 +134,7 @@ footer .footer-socials li:hover a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 2.5%;
+  margin-top: 5%;
 }
 
 .navbar-links {
@@ -213,6 +221,23 @@ footer .footer-socials li:hover a {
     height: 100%;
   }
 
+  .blog_img img {
+    border-radius: 5%;
+    width: 50%;
+    margin: 2%;
+  }
+
+  .blog_text p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -221,12 +246,6 @@ footer .footer-socials li:hover a {
     height:calc(100vh - 80px);
     cursor: pointer;
   }
-
-  .blog_img {
-    width: 50%;
-    margin-bottom: 25px;
-    margin-top: 10px;
-    }
 
 .contact-section h1 {
     text-align: center;
@@ -281,14 +300,14 @@ footer .footer-socials li:hover a {
   transition: 0.5s;
     }
 
-  .post-img {
+.post-img {
     width: 85%;
     margin: 0 auto;
     border-radius: 6px;
     transition: 0.3s linear;
   }
 
-  .post-content {
+.post-content {
     background-color: rgba(174, 179, 177, 0.8);
     text-align: center;
     margin: 20px;
@@ -298,17 +317,17 @@ footer .footer-socials li:hover a {
     transition: 0.3s linear;
   }
 
-  .post-content h3 {
+.post-content h3 {
     font-size: 16px;
     margin-bottom: 10px;
   }
 
-  .date {
+.date {
     font-size: 15px;
     color: black;
   }
 
-  .post-img:hover {
+.post-img:hover {
     transform: translateY(-5px);
     transition: 0.3s;
     }
@@ -316,29 +335,22 @@ footer .footer-socials li:hover a {
 
 
   @media only screen and (min-width: 1199px) {
-  .blog_heading {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .blog_date {
-    font-size: 15px;
-    color: black;
-  }
 
-  .blog_text {
+  .blog_img img {
+    border-radius: 5%;
     width: 50%;
-    position: relative;
-    margin: auto;
+    margin: 2%;
   }
 
-  .post-img {
-    display: block;
-    width: 40%;
+  .blog_text p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 50%;
+    margin-bottom: 2.5%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 6px; 
-    transition: 0.3s linear;
   }
 
   .post-content {
@@ -369,7 +381,6 @@ footer .footer-socials li:hover a {
     transform: translateY(-5px);
     transition: 0.3s;
     }
-
   
 .contact-section {
    padding: 40px;
