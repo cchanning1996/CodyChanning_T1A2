@@ -21,6 +21,7 @@ body {
     min-height: 100vh;
     display: flex; 
     flex-direction: column;
+    background-color: rgb(130, 130, 130);
 }
 
 .navbar {
@@ -101,6 +102,31 @@ footer .footer-socials li:hover a {
 .brand-title {
     font-size: 1.5rem;
     margin: 1rem;
+}
+
+.index_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5%;
+}
+
+.index_page img {
+  display: block;
+  text-align: center;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 25%;
+  margin: 5% auto;
+}
+
+.blog_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2.5%;
 }
 
 .navbar-links {
