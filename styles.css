@@ -15,6 +15,10 @@ article > * {
 
 }
 
+.about_me p {
+  padding: 2rem;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -218,6 +222,26 @@ footer .footer-socials li:hover a {
 }
 
   @media only screen and (min-width: 600px) and (max-width: 1199px) {
+  .about_me img {
+    display: block;
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 25%;
+    margin: 2.5% auto;
+    }
+  
+  .about_me p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto
+  }
+
     body {
     overflow-x: hidden;
     position: relative;
@@ -330,15 +354,29 @@ footer .footer-socials li:hover a {
     font-size: 15px;
     color: black;
   }
-
-.post-img:hover {
-    transform: translateY(-5px);
-    transition: 0.3s;
-    }
   }
 
 
   @media only screen and (min-width: 1199px) {
+    .about_me img {
+      display: block;
+      text-align: center;
+      width: 15rem;
+      height: 15rem;
+      border-radius: 25%;
+      margin: 2.5% auto;
+      }
+    
+    .about_me p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 20%;
+      margin-bottom: 0;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
 
   .blog_img img {
     border-radius: 5%;
@@ -371,6 +409,15 @@ footer .footer-socials li:hover a {
     transition: 0.3s linear;
   }
 
+  .post-img {
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 8%;
+    margin: 0 auto;
+  }
+
   .post-content h3 {
     font-size: 1rem;
     margin-bottom: 10px;
@@ -379,11 +426,6 @@ footer .footer-socials li:hover a {
   .date {
     font-size: 15px;
     color: black;
-    }
-
-  .post-img:hover {
-    transform: translateY(-5px);
-    transition: 0.3s;
     }
   
 .contact-section {
